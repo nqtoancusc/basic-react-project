@@ -1,5 +1,6 @@
 import axios from 'axios';
 
+import * as restApis from './restApis';
 import * as actionTypes from './actionTypes';
 
 export const registerStart = () => {
